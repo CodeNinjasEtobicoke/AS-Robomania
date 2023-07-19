@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     public float xDirection;
 
     private bool ceilingHit = false;
-    public float gravity = 1f;
+    public float gravity = 10000000f;
 
     private Rigidbody2D enemyRigidBody;
 
@@ -53,7 +53,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (ceilingHit == true)
         {
-            enemyRigidBody.velocity = Vector3.down * gravity;      
+            enemyRigidBody.AddForce(Vector3.down * gravity * Time.deltaTime);      
         }
     }
 }

@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 662018342}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Ground
+  m_TagString: Ceiling
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1944,7 +1944,7 @@ MonoBehaviour:
   yForce: 400
   xForce: 140
   xDirection: -1
-  gravity: 1
+  gravity: 100
 --- !u!114 &1163686251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2483,7 +2483,7 @@ MonoBehaviour:
   yForce: 300
   xForce: 130
   xDirection: 1
-  gravity: 1
+  gravity: 100
 --- !u!114 &1604866800
 MonoBehaviour:
   m_ObjectHideFlags: 0
